@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "4.58.0"
+  version: "4.59.0"
   python_check_max: "3.14"
 
 package:
@@ -11,9 +11,9 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/t/tox/tox-${{ version }}.tar.gz
-    sha256: ab0b126a04dd56bc18e6d216386db09335247f2289b54cf534deb5c4ae3a8d2e
+    sha256: 5fa9d0d4d8137ec2b7ecc0f2777d9dc220cf2bfa21497941ee4af88dec8fa6d3
   - url: https://raw.githubusercontent.com/tox-dev/tox/refs/tags/${{ version }}/docs/man/tox.1.rst
-    sha256: 07b26314bce15e7834a9e960ce95c98d6ac5c06df0cd7fc322dc2df065c7dd03
+    sha256: 3ffddef1478ff599043487582415dea91024d14e624a210a7fd33e4aa0ccdabc
     target_directory: docs/man
 
 build:
